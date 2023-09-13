@@ -26,6 +26,12 @@ def calcular_pesos_hopfield(matrizes):
 # Cria uma lista com as matrizes A, B e C.
 matrizes = [A, B, C]
 
+# Imprime as matrizes iniciais
+print("Matriz inicial:")
+print(A)
+print(B)
+print(C)
+
 # Calcula os pesos da Rede Neural Hopfield chamando a função 'calcular_pesos_hopfield' e armazena em 'pesos_hopfield'.
 pesos_hopfield = calcular_pesos_hopfield(matrizes)
 
